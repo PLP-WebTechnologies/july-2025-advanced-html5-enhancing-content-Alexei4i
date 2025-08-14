@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Form Assignment</title>
+</head>
+<body>
+    <h1>My HTML5 Assignment</h1>
+    <p>This is a simple web page made by a beginner. It has lists, a table, some media, and a form.</p>
+
+    <h2>My Favorite Foods</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Ice Cream</li>
+    </ul>
+
+    <h2>Steps to Make Tea</h2>
+    <ol>
+        <li>Boil water</li>
+        <li>Add tea leaves</li>
+        <li>Let it steep</li>
+        <li>Pour into cup</li>
+        <li>Add sugar or milk</li>
+    </ol>
+
+    <h2>Simple Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <h2>Media</h2>
+    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl" width="200">
+    <br>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <video width="200" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Your email">
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" required placeholder="Your age">
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+
+        <label for="bio">Short Bio:</label>
+        <textarea id="bio" name="bio" rows="3" placeholder="Tell us about yourself"></textarea>
+
+        <label for="refcode">Referral Code:</label>
+        <input type="text" id="refcode" name="refcode" value="PLP2025" readonly>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
